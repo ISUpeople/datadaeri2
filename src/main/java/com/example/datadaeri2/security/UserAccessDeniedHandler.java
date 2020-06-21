@@ -1,4 +1,4 @@
-package com.example.datadaeri2;
+package com.example.datadaeri2.security;
 
 import java.io.IOException;
 
@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
+
+import com.example.datadaeri2.controller.HomeController;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

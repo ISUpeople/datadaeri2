@@ -1,4 +1,4 @@
-package com.example.datadaeri2;
+package com.example.datadaeri2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
