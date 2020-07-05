@@ -7,8 +7,8 @@
 	http://www.springframework.org/schema/beans
 https://www.springframework.org/schema/beans/spring-beans.xsd"
 >
-	<bean id="userAccessDenied" class="com.example.datadaeri2.UserAccessDeniedHandler"></bean>
-	<bean id="LoginSuccess" class="com.example.datadaeri2.LoginSuccessHandler"></bean>
+	<bean id="userAccessDenied" class="com.example.datadaeri2.security.UserAccessDeniedHandler"></bean>
+	<bean id="LoginSuccess" class="com.example.datadaeri2.security.LoginSuccessHandler"></bean>
 	<security:http>
 	
 		<security:intercept-url pattern="/user/all" access="permitAll"/>
