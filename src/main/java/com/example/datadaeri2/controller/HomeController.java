@@ -1,4 +1,4 @@
-package com.example.datadaeri2;
+package com.example.datadaeri2.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
